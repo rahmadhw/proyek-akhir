@@ -76,6 +76,7 @@ body {
       margin-top: 4.1rem;
       width: 100%;
       height: 400px;
+ 
       
   }
 
@@ -89,6 +90,17 @@ body {
       color: #ffff;
       text-align: center;
       margin-top: 200px;
+
+  }
+
+  .section-deskripsi {
+    transition: ease 1.6s;
+    opacity: 0;
+  }
+
+  .section-deskripsi.test,
+  .anggota.test {
+    opacity: 1;
   }
 
   .title-deskripsi {
@@ -126,7 +138,9 @@ body {
 
   .anggota {
       width: 55%;
-      margin: auto;
+      margin: 320px auto;
+      transition: ease 1.6s;
+      opacity: 0;
   }
 
   .judul-anggota {
@@ -141,7 +155,7 @@ body {
       justify-content: space-evenly;
       flex-wrap: wrap;
       align-items: center;
-      margin-top: 200px;
+      margin-top: 80px;
   }
   .gambar-section span {
       display: flex;
@@ -240,4 +254,3 @@ body {
     display: flex;
     flex-direction: column;
   }
-
