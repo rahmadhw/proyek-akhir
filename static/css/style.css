@@ -98,9 +98,19 @@ body {
     opacity: 0;
   }
 
-  .section-deskripsi.test,
-  .anggota.test {
+  .anggota {
+    width: 55%;
+    margin: 320px auto;
+    margin-left: 800px;
+    transition: ease 2.5s;
+}
+
+  .section-deskripsi.test {
     opacity: 1;
+  }
+
+  .anggota.test {
+    margin-left: 22%;
   }
 
   .title-deskripsi {
@@ -136,12 +146,7 @@ body {
       left: 60%;
   }
 
-  .anggota {
-      width: 55%;
-      margin: 320px auto;
-      transition: ease 1.6s;
-      opacity: 0;
-  }
+ 
 
   .judul-anggota {
       margin-top: 200px;

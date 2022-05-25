@@ -24,5 +24,9 @@ def model():
     return render_template("model/model.html")
 
 
+@app.route("/setting")
+def setting():
+    return render_template("setting/setting.html")
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

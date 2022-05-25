@@ -98,6 +98,29 @@ body {
 
 }
 
+.title-film h2 {
+	margin-left: 10px;
+}
+
+.daftar_film {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	height: 85vh;
+    margin-left: 20px;
+	margin-top: 30px;
+	padding: 15px;
+	
+}
+
+.wrapper-film {
+	padding: 3px 10px;
+	margin: 4px 0px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
 @keyframes animate {
 	from {
 		background-color: none;

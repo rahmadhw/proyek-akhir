@@ -9,9 +9,9 @@ function Scrolling(){
     const test = document.documentElement.scrollTop;
     console.log(test)
 
-    if (document.documentElement.scrollTop >= 223){
+    if (document.documentElement.scrollTop >= 150){
         hero.classList.add("test");
-        if (document.documentElement.scrollTop >= 1180) {
+        if (document.documentElement.scrollTop >= 918) {
             anggota.classList.add("test");
         }else {
             anggota.classList.remove("test");
