@@ -184,6 +184,12 @@ body {
     color: white;
     text-align: center;
     margin: 150px 0;
+    opacity: 0;
+    transition: ease 0.5s;
+  }
+
+  .judul_kerja_kelompok.test {
+    opacity: 1;
   }
 
   .pembungkus {
