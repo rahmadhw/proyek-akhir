@@ -5,7 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Halaman Data</title>
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
 	<link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 </head>
 <body>
@@ -35,129 +34,48 @@
 					<li><a href="/model">Model</a></li>
 				</ul>
 			</div>
-			<h5>Data Film</h5>
+			<h5>Recommended Movies</h5>
 			<div class="daftar_film">
 				<div class="title-film">
-					<h2>Action</h2>
 					<div class="logo-film">
 						<div class="wrapper_wrapper">
-							
+							<div class="movie">
+									<img src="{{url_for('static', filename='asset/gambar/surat.jpg')}}">
+									<div class="movie-info">
+										<h3>Surat Cinta Untuk Starla</h3>
+										<span>6.7</span>
+									</div>
+									<div class="overview">
+										<h3>overview</h3>
+										sembarang
+									</div>
+								</div>
+
+								<div class="movie">
+									<img src="{{url_for('static', filename='asset/gambar/surat.jpg')}}">
+									<div class="movie-info">
+										<h3>Silariang</h3>
+										<span>6.7</span>
+									</div>
+									<div class="overview">
+										<h3>overview</h3>
+										sembarang
+									</div>
+								</div>
+
+								<div class="movie">
+									<img src="{{url_for('static', filename='asset/gambar/surat.jpg')}}">
+									<div class="movie-info">
+										<h3>Surat untuk mu</h3>
+										<span>6.7</span>
+									</div>
+									<div class="overview">
+										<h3>overview</h3>
+										sembarang
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-					<table id="wrapper_film">
-						<thead>
-							<tr>
-								<th>Nama Film</th>
-								<th>Genre</th>
-								<th>Harga Tiket</th>
-								<th>Tahun terbit</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Zero one</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider den-o</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider blade</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider faiz</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Ryuki</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Agito</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Revice</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-							<tr>
-								<td>Kamen Rider Saber</td>
-								<td>Action tokusatsu</td>
-								<td>300.000</td>
-								<td>8.7R</td>
-							</tr>
-						</tbody>
-					</table>
 				</div>
 				
 			</div>
@@ -168,11 +86,5 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
-	<script>
-		$(document).ready(function () {
-			$('#wrapper_film').DataTable();
-		});
-	</script>
 </body>
 </html>

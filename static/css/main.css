@@ -122,17 +122,46 @@ body {
 
 .daftar_film .logo-film {
 	display: flex;
-	align-items: center;
-	border: 1px solid red;
-	height: 25vw;
-	margin-bottom: 100px;
+	height: 80vw;
+	margin-bottom: 30px;
 }
 
 .daftar_film .logo-film .wrapper_wrapper {
-	width: 70vw;
-	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+
+.daftar_film .logo-film .wrapper_wrapper .movie {
+	position: relative;
+	margin: 20px 10px;
 	height: 20vw;
-	border: 1px solid black;
+	overflow: hidden;
+}
+
+.daftar_film .logo-film .wrapper_wrapper .movie .overview {
+  background-color: #ebe6e6;
+  color: black;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 10vw;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+.daftar_film .logo-film .wrapper_wrapper .movie:hover .overview {
+  color: black;
+  transform: translateY(0);
+}
+
+
+.daftar_film .logo-film .wrapper_wrapper .movie img {
+	width: 100%;
+	height: 200px;
 }
 
 .wrapper-film {
